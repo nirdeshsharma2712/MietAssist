@@ -1,0 +1,231 @@
+
+
+.bodycopy{
+  height: 100vh;
+  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(https://images.collegedunia.com/public/college_data/images/campusimage/16114832198.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+        .offcanvas-body{
+            padding-top: 10px;
+        }
+        .btnsh{
+            margin-top: 20px;
+            border-radius: 50px;
+            height: 40px;
+            width:180px;
+            border: none;
+        
+        }
+   
+        .nav-item-dropdown{
+            list-style: none;
+            padding-left: 15px;
+          
+        }
+        .nextpage{
+            text-decoration: none;
+            color: orangered;
+        }
+      
+  .container {
+      width: 100%;
+      margin: 0 auto;
+    padding-top: 110px;
+      background-color:transparent;
+      text-align: center;
+     
+     
+  }
+
+ .container h1 {
+      font-size: 37px;
+      color: #ffffff;
+      
+      
+  }
+
+ .container p {
+      font-size: 1rem;
+      color: #fff;
+  }
+
+    
+
+  *{
+
+    margin:0px;
+    
+    padding:0px;
+    
+    box-sizing: border-box; font-family: sans-serif;
+    
+    }
+    
+    body {
+    
+    width:100%;
+    
+    background: linear-gradient(120deg,#ffffff,rgb(189, 200, 203),rgb(255, 255, 255));
+    
+    }
+    
+    .title h1{ text-align: center; padding-top: 50px; font-size: 42px;
+        color: black;
+    
+    }
+    
+    .title h1::after{ content:""; height: 4px; width:230px; background-color: #ffffff; display: block; margin:auto;
+    
+    }
+
+
+.services{
+
+width:85%;
+
+display: flex;
+
+justify-content: space-between;
+
+align-items: center; margin:75px auto; text-align: center;
+
+
+
+}
+
+ .card{
+
+width:100%; flex-direction: column; background-color: #a63030; border-radius: 10px;
+
+display: flex;
+
+justify-content: space-between; align-items: center;
+
+margin:0px 20px; padding: 20px 20px;
+cursor: pointer;
+
+
+}
+
+
+.card .icon{
+
+    font-size: 35px; margin-bottom: 10px;
+    
+    }
+    
+    .card h2{
+    
+    font-size: 28px;
+    
+    color:#c94f4f; margin-bottom: 20px;
+    
+    }
+    
+    .card p{
+    
+    font-size: 17px; margin-bottom: 30px;
+    
+    Line-height: 1.5;
+    
+    color:#5e5e5e;
+    
+    }
+    
+    .button{
+    
+    font-size: 15px;
+    
+    text-decoration: none;
+    
+    color:#fff;
+    
+    padding:8px 12px;
+    
+    border-radius: 5px;
+    letter-spacing: 1px;
+    background-color: #2568e4;
+    
+     }
+     .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+      .dropdown  a{
+        color: orangered;
+        text-decoration: none;
+      }
+  
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: rgb(29, 29, 29);
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      .dropdown-content a{
+        text-decoration: none;
+        color:rgb(255, 255, 255) ;
+      }
+  
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+
+
+@media screen and (max-width:940px){
+    .services{
+        display: flex;
+        flex-direction: column;
+    }
+.card{
+    width: 85%;
+    display: flex;
+    margin: 20px 0px;
+}
+}
+   @media screen and (max-width: 768px)
+    {
+      .container {
+          max-width: 90%;
+          padding-top: 110px;
+          
+      }
+
+      h1 {
+          font-size: 30px;
+       
+      }
+      p {
+          font-size: 14px;
+      }
+  } 
+  @media screen and ( max-height:470px){
+.container{
+  padding-top: 80px;
+}
+h1{
+  font-size: 25px;
+
+}
+p{
+  font-size: 10px;
+}
+  }
+  @media screen and ( max-height:420px){
+    .container{
+      padding-top: 30px;
+    }
+    h1{
+      font-size: 12px;
+    
+    }
+    p{
+      font-size: 6px;
+    }
+      }

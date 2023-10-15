@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miet Assist</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+ 
+</head>
+<body>
+ <div class="bodycopy">
+    <nav class="navbar navbar-dark  ">
+        <div class="container-fluid">
+          <!-- <h1 class="navbar-brand"><span class="logoanimation">mi<span class="Eanimation">e</span>t</span><span class="Xanimation">Pro</span></h1> -->
+          <a class="navbar-brand" href="#">
+            <img class="images"src="logo.png" alt="Logo" width="100" height="80" class="d-inline-block align-text-top"><span>
+           <!-- <p>L<span class="textformate">i</span>nk</p> </span> -->
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">MenuBar</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <h4 class="mainbar">Select Year</h4>
+              <a class="nextpage" href="Home.html">1st Year</a><br>
+              <!-- <a class="nextpage" href="#">2nd Year</a><br> -->
+<div class="dropdown">
+  <a href="#">2nd Year</a>
+  <div class="dropdown-content">
+    <a href="https://drive.google.com/drive/folders/1ddoTk57uDgFgiYFY1y_rSdGyooMHTSd-">Drive 1</a><br>
+    <a href="https://drive.google.com/drive/folders/1WmBE6PMhQAz8E65xWFt7t9-fcdn_J2xC?usp=share_link">Drive 2</a><br>
+  </div>
+</div><br>
+<a class="nextpage" href="#">3rd Year</a><br>
+<a class="nextpage" href="#">4th Year</a><br>
+<button class="btnsh"><i class="fa-solid fa-share"></i>    Share on WhatsApp</button>
+</div>
+ </div>
+ </div>
+ </nav>
+      <div class="container">
+        <h1>Miet Assist</h1>
+        <p>"offers academic notes, previous year question papers, and the year's academic calendar.<br> We empower students to practice effectively, excel in exams, "</p>
+        <!-- <div class="newbtn">
+          <a href="#scrollnow"><button class="clickbtn">Dowmload</button></a>
+         </div> -->
+      </div>
+    </div>
+ 
+    <div class="section" id="scrollnow">
+      <div class="title">
+      <h1>Download Here</h1>
+      </div>
+      <div class="services">
+      <div class="card">
+      <h2>Sessional Exams</h2>
+       <!-- <a href="Sessional1.html" class="button">Download</a> -->
+       <div class="modal fade" id="sessionalModalToggle" aria-hidden="true" aria-labelledby="sessionalModalToggleLabel" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Semester 1</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <a href="osessional1.html">Click here for sessional 1</a><br>
+              <a href="osessional2.html">Click here for sessional 2</a><br>
+            </div>
+            <div class="modal-footer">
+              <button class="btn btn-primary" data-bs-target="#sessional2ModalToggle2" data-bs-toggle="modal">Semester 2</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="sessional2ModalToggle2" aria-hidden="true" aria-labelledby="sessional2ModalToggleLabel2" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Semester 2</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <a href="esessional1.html">Click here for sessional 1</a><br>
+              <a href="esessional2.html">Click here for sessional 2</a><br>
+            </div>
+            <div class="modal-footer">
+              <button class="btn btn-primary" data-bs-target="#sessionalModalToggle" data-bs-toggle="modal">Semester 1</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="btn btn-primary" data-bs-target="#sessionalModalToggle" data-bs-toggle="modal">Download</button>
+      </div> 
+     
+      <div class="card">
+          <h2>PUT</h2>
+         <!-- <a href="https://tejus3131.github.io/miethub/" class="button">Download</a> -->
+         <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#putModal">
+ Download
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="putModal" tabindex="-1" aria-labelledby="putModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Select Semester</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <a href="oput.html">Click here for Semester 1</a><br>
+        <a href="eput.html">Click here for Semester 2</a><br>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+      </div>
+    </div>
+  </div>
+</div>
+          </div>
+
+      <div class="card">  
+        <h2>Make-up-test</h2>
+            <!-- <a href="https://drive.google.com/file/d/1mz_GIjT4AjLVqJnLYqPH4aoE_abMKUqH/view?usp=drivesdk" class="button">Download</a> -->
+            <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#mktModal">
+  Download
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="mktModal" tabindex="-1" aria-labelledby="mktModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Semester 1</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <a href="omkt1.html">Click here for Make-up-test 1</a><br>
+        <a href="omkt2.html">Click here for Make-up-test 2</a><br>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+      </div>
+    </div>
+  </div>
+</div>
+        </div>
+        </div>
+
+
+        <div class="services">
+          <div class="card">
+          <h2>Semester-Exams</h2>
+           <!-- <a href="Sessional1.html" class="button">Download</a> -->
+           <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#SemesterModal">
+ Download
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="SemesterModal" tabindex="-1" aria-labelledby="SemesterModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Select Semester</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <a href="osem.html">Click here for Semester-1</a><br>
+        <a href="esem.html">Click here for Semester-2</a><br>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+      </div>
+    </div>
+  </div>
+</div>
+          </div> 
+          
+          <div class="card">
+              <h2>Notes</h2>
+              <a href="https://tejus3131.github.io/miethub/" class="button">Download</a>
+              </div>
+              
+          <div class="card">
+            <h2>Academic Calendar</h2>
+            <a href="https://drive.google.com/file/d/1mz_GIjT4AjLVqJnLYqPH4aoE_abMKUqH/view?usp=drivesdk" class="button">Download</a>
+            </div>
+            </div>
+      
+      </div>
+     
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
